@@ -9,7 +9,7 @@ function Footer() {
     <Container>
       <Link href="/" scroll={false}>
         <LogoWrapper>
-          <Image src="/images/logo.svg" alt="Cat Wiki Logo" layout="fill" />
+          <Image src="/images/logo.svg" alt="Cat Wiki Logo" fill />
         </LogoWrapper>
       </Link>
 
@@ -29,12 +29,12 @@ function Footer() {
         <div>
           <span>made by</span>
 
-          <a href="https://github.com/pklepa">pklepa</a>
+          <a href="https://github.com/tanverzahed">Abu Zahed</a>
         </div>
         <div>
           <span>inspired by</span>
 
-          <a href="https://devchallenges.io">devchallenges</a>
+          <a href="https://github.com/pklepa">pklepa</a>
         </div>
       </Credits>
     </Container>

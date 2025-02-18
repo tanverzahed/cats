@@ -37,7 +37,7 @@ export default function CatList({ catList }) {
                               : '/images/nopreview.png'
                           }
                           alt="Photo of a Norwegian Forest cat"
-                          layout="fill"
+                          fill
                         />
                       </div>
 

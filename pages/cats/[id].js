@@ -48,7 +48,7 @@ export default function Cat({ data }) {
               src={images[0].url}
               className="main-img"
               alt="Featured image of the breed"
-              layout="fill"
+              fill
             />
           </HeroImgWrapper>
 
@@ -121,7 +121,7 @@ export default function Cat({ data }) {
                         className="preview-img"
                         src={img.url}
                         alt="Photo of this breed of cat"
-                        layout="fill"
+                        fill
                       />
                     </div>
                   </FadeInWhenVisible>
@@ -146,7 +146,7 @@ export default function Cat({ data }) {
                   className="preview-img"
                   src={imageToDisplay}
                   alt="Photo of this breed of cat"
-                  layout="fill"
+                  fill
                 />
               </div>
 

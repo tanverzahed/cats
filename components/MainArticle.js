@@ -23,7 +23,7 @@ function MainArticle() {
                   className="preview-img"
                   src="/images/bengal.jpg"
                   alt="Photo of a bengal cat"
-                  layout="fill"
+                  fill
                 />
               </div>
               <span>Bengal</span>
@@ -37,7 +37,7 @@ function MainArticle() {
                   className="preview-img"
                   src="/images/savannah.jpg"
                   alt="Photo of a Savannah cat"
-                  layout="fill"
+                  fill
                 />
               </div>
               <span>Savannah</span>
@@ -51,7 +51,7 @@ function MainArticle() {
                   className="preview-img"
                   src="/images/norwegian.jpg"
                   alt="Photo of a Norwegian Forest cat"
-                  layout="fill"
+                  fill
                 />
               </div>
               <span>Norwegian Forest Cat</span>
@@ -65,7 +65,7 @@ function MainArticle() {
                   className="preview-img"
                   src="/images/selkirk.jpg"
                   alt="Photo of a Selkirk Rex cat"
-                  layout="fill"
+                  fill
                 />
               </div>
               <span>Selkirk Rex</span>

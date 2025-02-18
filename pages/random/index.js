@@ -30,7 +30,7 @@ export default function Random() {
       key="page-random"
     >
       <LogoWrapper>
-        <Image src="/images/logo.svg" alt="Cat Wiki Logo" layout="fill" />
+        <Image src="/images/logo.svg" alt="Cat Wiki Logo" fill />
       </LogoWrapper>
     </Container>
   );

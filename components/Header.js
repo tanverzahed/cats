@@ -42,7 +42,7 @@ function Header({ catList }) {
     <HeaderContainer>
       <HeaderContent>
         <LogoWrapper>
-          <Image src="/images/logo.svg" alt="Cat Wiki Logo" layout="fill" />
+          <Image src="/images/logo.svg" alt="Cat Wiki Logo" fill />
         </LogoWrapper>
 
         <h2>Get to know more about your cat breed</h2>

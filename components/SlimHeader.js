@@ -8,7 +8,7 @@ function SlimHeader() {
     <Container>
       <Link href="/">
         <LogoWrapper>
-          <Image src="/images/logo.svg" alt="Cat Wiki Logo" layout="fill" />
+          <Image src="/images/logo.svg" alt="Cat Wiki Logo" fill />
         </LogoWrapper>
       </Link>
 
