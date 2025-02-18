@@ -14,6 +14,10 @@ import { motion } from 'framer-motion';
 import FadeInWhenVisible from '../../components/AnimationWrappers/FadeInWhenVisible';
 
 export default function Cat({ data }) {
+  console.log(data);
+  if (!data || !data.length || !data[0].breeds) {
+    return <div>No data available</div>;
+  }
   const [cat] = data[0].breeds;
   const [imageToDisplay, setImageToDisplay] = useState();
   const [showModal, setShowModal] = useState(false);
@@ -163,8 +167,9 @@ export default function Cat({ data }) {
 
 // Fetches API data before Next generates the page
 export async function getStaticProps({ params }) {
+  console.log(params);
   const req = await fetch(
-    `https://api.thecatapi.com/v1/images/search?breed_id=${params.id}&limit=9`
+    `https://api.thecatapi.com/v1/images/search?breed_ids=${params.id}&limit=9&api_key=${process.env.CAT_API_KEY}`
   );
   const data = await req.json();
 
